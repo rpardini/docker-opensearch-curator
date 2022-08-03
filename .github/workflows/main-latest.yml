@@ -2,7 +2,7 @@ name: master-latest
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   schedule:
     - cron: '0 3 * * *' # Scheduled runs every day at 3am UTC
 
